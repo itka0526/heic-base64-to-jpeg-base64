@@ -1,0 +1,19 @@
+{
+    "name": "heic-decoder-itka0526",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "canvas": "^2.9.1",
+        "cors": "^2.8.5",
+        "express": "^4.17.3",
+        "libheif-js": "^1.12.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    },
+    "scripts": {
+        "dev": "nodemon app.js",
+        "start": "node app.js"
+    }
+}
