@@ -1,11 +1,11 @@
 # heic-base64-to-jpeg-base64
 
-If there any errors with 'node-canvas' please visit https://www.npmjs.com/package/canvas, they have great about error handling documentaion! I had small hiccup because I had an ARM64 mac.
+If there any errors with 'node-canvas' please visit https://www.npmjs.com/package/canvas, they have great about error handling documentaion! I had a small hiccup because my mac was ARM64.
 
 Turned https://github.com/ricokahler/heic.app this guy's project to an express API
 
 Usage:
-  send a POST requet to this URL: 
+  send a POST request to this URL: 
   https://heic-base64-tojpeg-base64.herokuapp.com/convert_heic_base64_to_png_base64
   
   with body: 
